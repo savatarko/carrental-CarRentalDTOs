@@ -9,6 +9,6 @@ public class CompanyCreateDto {
 
     private String name;
     private String description;
-
+    private Long managerid;
 
 }
