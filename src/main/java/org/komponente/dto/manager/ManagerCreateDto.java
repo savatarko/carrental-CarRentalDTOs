@@ -21,15 +21,7 @@ public class ManagerCreateDto {
     private LocalDate dateofemployment;
     private String username;
     private Long companyId;
+    private String email;
+    private String password;
 
-    private LoginInfo loginInfo;
-
-    @Getter
-    @Setter
-    @NoArgsConstructor
-    @AllArgsConstructor
-    public static class LoginInfo{
-        private String email;
-        private String password;
-    }
 }
