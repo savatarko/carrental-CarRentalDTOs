@@ -10,7 +10,6 @@ import java.util.Date;
 @Setter
 public class ActiveReservationCreateDto {
     private Long companycarid;
-    private Long clientid;
     private LocalDate begindate;
     private LocalDate enddate;
 

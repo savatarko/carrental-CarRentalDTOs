@@ -13,6 +13,7 @@ public class RegisterNotification implements Serializable {
     private String surname;
     private String link;
 
+
     @Override
     public String toString() {
         return "Welcome to RAF car rental, " + name + " " + surname + "!\n\n Please click on the link below to activate your account: " + link;
