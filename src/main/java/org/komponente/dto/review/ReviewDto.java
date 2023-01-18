@@ -14,6 +14,7 @@ public class ReviewDto {
     private String description;
 
      */
+    private Long id;
     private Integer stars;
     private String comment;
 }
