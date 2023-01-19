@@ -15,6 +15,7 @@ public class SuccessfulReservationClientNotification implements Serializable {
     private Long totalprice;
     private String startdate;
     private String enddate;
+    private Long receiverId;
 
     @Override
     public String toString() {

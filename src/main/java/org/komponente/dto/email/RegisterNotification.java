@@ -12,6 +12,7 @@ public class RegisterNotification implements Serializable {
     private String name;
     private String surname;
     private String link;
+    private Long receiverId;
 
 
     @Override

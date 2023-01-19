@@ -14,6 +14,7 @@ public class ReservationReminderNotification implements Serializable {
     private String companyname;
     private String startdate;
     private String enddate;
+    private Long receiverId;
 
     @Override
     public String toString() {
