@@ -24,5 +24,4 @@ public class ActiveReservationCreateDto {
     @JsonDeserialize(using = LocalDateDeserializer.class)
     private LocalDate enddate;
 
-    private Long totalprice;
 }
